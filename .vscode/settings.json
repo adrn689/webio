@@ -1,0 +1,12 @@
+{
+    "vsmqtt.brokerProfiles": [
+        {
+            "name": "testbroker",
+            "host": "madrr.cloud.shiftr.io",
+            "port": 1883,
+            "username": "madrr",
+            "password": "Ks7svcYRmOSgEyTm",
+            "clientId": "vsmqtt_client_4334"
+        }
+    ]
+}
