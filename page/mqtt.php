@@ -305,13 +305,13 @@ if (!$result) {
         console.log("terhubung");
         document.getElementById("status").innerHTML = "Online Broker";
 
-        client.subscribe("QWERR/1/#", { qos: 1 });
+        client.subscribe("modul/#", { qos: 1 });
     });
 
     client.on("message", function(topic, payload) {
-        if (topic === "QWERR/1/pot") {
+        if (topic === "modul/pot") {
             document.getElementById("pot").innerHTML = payload;
-        } else if (topic === "QWERR/1/led") {
+        } else if (topic === "modul/led") {
             if (payload == "on") {
                 document.getElementById("lampuonid").classList.add("active");
                 document.getElementById("lampuoffid").classList.remove("active");
@@ -330,6 +330,6 @@ if (!$result) {
         if (document.getElementById("lampuoff").checked) {
             data = "off";
         }
-        client.publish("QWERR/1/led", data, { qos: 1, retain: true });
+        client.publish("modul/led", data, { qos: 1, retain: true });
     }
 </script>
