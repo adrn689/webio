@@ -120,7 +120,7 @@ if (!$result) {
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Testing Analog Ouput</h3>
@@ -222,6 +222,21 @@ if (!$result) {
             </div>
             <!-- /.card-body -->
           </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Server Broker MQTT</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row margin">
+                </div>
+                <iframe src="https://madrr.cloud.shiftr.io/embed?widgets=1" width="1200" height="600" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
         </div>
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
