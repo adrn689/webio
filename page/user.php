@@ -206,8 +206,8 @@ if (!$result) {
                                         <input type="text" class="form-control" name="username" value="<?php echo $editData['username']; ?>" required placeholder="Username">
                                     </div>
                                     <div class="form-group">
-                                        <label>Password (Kosongkan jika tidak diubah)</label>
-                                        <input type="password" class="form-control" name="password" placeholder="Password">
+                                        <label>Password </label>
+                                        <input type="password" class="form-control" name="password" placeholder="Password (Kosongkan jika tidak diubah)">
                                     </div>
                                     <div class="form-group">
                                         <label>Nama Lengkap</label>
@@ -239,5 +239,4 @@ if (!$result) {
             </div>
         </div>
     </div>
-    <!-- /.content -->
 </div>

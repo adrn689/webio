@@ -48,7 +48,16 @@ include "inc/footer.php";
   $(function () {
     $('#range_5').ionRangeSlider({
       min     : 0,
-      max     : 255,
+      max     : 180,
+      type    : 'single',
+      step    : 1,
+      postfix : ' ',
+      prettify: false,
+      hasGrid : true
+    })
+    $('#range_6').ionRangeSlider({
+      min     : 0,
+      max     : 1023,
       type    : 'single',
       step    : 1,
       postfix : ' ',

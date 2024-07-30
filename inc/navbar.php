@@ -9,9 +9,14 @@
      <li class="nav-item d-none d-sm-inline-block">
        <a href="https://spadaec.pnp.ac.id" class="nav-link" target="_blank" rel="noopener noreferrer">Spadaec</a>
      </li>
-     <?php if (isset($_GET['page']) && $_GET['page'] == "mqtt") { ?>
+     <?php if (isset($_GET['page']) && $_GET['page'] == "mqtt" || $_GET['page'] == "kontrol") { ?>
        <li class="nav-item d-none d-sm-inline-block">
          <a class="nav-link" id="status" >Offline Broker</a>
+       </li>
+     <?php } ?>
+     <?php if (isset($_GET['page']) && $_GET['page'] == "mqtt" || $_GET['page'] == "kontrol") { ?>
+       <li class="nav-item d-none d-sm-inline-block">
+         <a class="nav-link" id="ip" >Checking IP</a>
        </li>
      <?php } ?>
      <li class="nav-item d-none d-sm-inline-block">

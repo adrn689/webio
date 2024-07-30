@@ -46,79 +46,91 @@
                     <li class="nav-item">
                       <a href="?page=mqtt" class="nav-link">
                         <i class="fab fa-mixcloud"></i>
-                        <p>Testing MQTT</p>
+                        <p>Testing MQTT </p>
                       </a>
                     </li>
                     <li class="nav-item">
                       <a href="?page=http" class="nav-link">
                         <i class="fas fa-server"></i>
-                        <p>Testing HTTP</p>
+                        <p>Testing HTTP </p>
                       </a>
-                    </li>    
+                    </li>   
+                    <li class="nav-item">
+                      <a href="?page=kontrol" class="nav-link">
+                        <i class="fas fa-server"></i>
+                        <p>Testing Kontrol Output </p>
+                      </a>
+                    </li> 
+                    <li class="nav-item">
+                      <a href="?page=lorahttp" class="nav-link">
+                        <i class="fas fa-server"></i>
+                        <p>Testing Receiving Lora HTTP</p>
+                      </a>
+                    </li> 
                     <li class="nav-item">
                       <a href="?page=lora" class="nav-link">
                         <i class="fas fa-server"></i>
-                        <p>Testing Receiving Lora</p>
+                        <p>Testing Receiving Lora MQTT</p>
                       </a>
                     </li>         
                 <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
-                <p>
-                  Jobsheet
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="../../index.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 1</p>
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                      Jobsheet
+                      <i class="right fas fa-angle-left"></i>
+                    </p>
                   </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 2</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 3</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 4</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 5</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 6</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Jobsheet 7</p>
-                  </a>
-                </li>
-              </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="logout.php" class="nav-link">
-                    <i class="nav-icon fas fa-sign-out-alt"></i>
-                    <p>Log Out</p>
-                  </a>
+                  <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                      <a href="../../index.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 1</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index2.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 2</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index3.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 3</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index3.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 4</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index3.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 5</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index3.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 6</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../index3.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jobsheet 7</p>
+                      </a>
+                    </li>
+                  </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="logout.php" class="nav-link">
+                        <i class="nav-icon fas fa-sign-out-alt"></i>
+                        <p>Log Out</p>
+                      </a>
                 </li>
           </ul>
         </nav>>

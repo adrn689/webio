@@ -101,44 +101,7 @@ if (!$result) {
             </a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-header bg-olive d-flex justify-content-center">
-              <p class="mt-2 mb-1">Testing Digital Ouput</p>
-            </div>
-            <div class="card-body table-responsive pad bg-teal">
-              <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <label class="btn bg-olive active" id="lampuonid">
-                    <input type="radio" name="options1" onchange="publishled(this)" id="lampuon" autocomplete="off"> 0/LOW
-                  </label>
-                  <label class="btn bg-olive" id="lampuoffid">
-                    <input type="radio" name="options1" onchange="publishled(this)" id="lampuoff" autocomplete="off"> 1/HIGH
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">Testing Analog Ouput</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <div class="row margin">
-                </div>
-                <div class="row margin">
-                  <div class="col-sm-12">
-                    <input id="range_5" type="text" name="range_5" value="">
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
+
         <div class="col-md-6">
           <!-- AREA CHART -->
           <div class="card card-warning">
